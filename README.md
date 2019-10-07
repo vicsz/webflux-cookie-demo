@@ -10,7 +10,7 @@
 ### Step 2 - Deploy the Application 
 
 ```sh
-cf push webflux-cookie-demo -i 2 --random-route -p build/libs/webflux-cookie-demo-0.0.1-SNAPSHOT.ja
+cf push webflux-cookie-demo -i 2 --random-route -p build/libs/webflux-cookie-demo-0.0.1-SNAPSHOT.jar
 ```
 
 > Note : 2 Application instances are specified with i parameter 
